@@ -1,0 +1,41 @@
+body{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+min-width: 400px;
+max-width: width;
+
+}
+
+.hero-image{
+  background: url(../Images/clothes.jpg) no-repeat fixed;
+  background-size: cover;
+}
+h1 {
+  /*Color Text and font*/
+  color: white;
+  text-align: center !important;
+  font-family: Charmonman;
+  font-size: 80px;
+   -webkit-text-stroke: .2px black;
+}
+p{
+  /*Color Text*/
+   color: white;
+   font-size: 40px;
+   /* Set Position */
+   text-align: center !important;
+    font-family: Charmonman;
+    line-height: normal;
+    -webkit-text-stroke: .2px black;
+
+}
+h2{
+/*Color Text and font*/
+color: white;
+text-align: center !important;
+font-family: Charmonman;
+font-size: 30px;
+
+}
