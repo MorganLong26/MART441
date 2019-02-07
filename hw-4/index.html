@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Three Doors</title>
+        <script>
+        //Declaring my variables
+
+        var door_3 = "BlackDoubleDoor";
+        var door_2 = "SingleBlackDoor";
+        var door_1 = "OldWoodenDoor";
+
+
+        console.log(door_3);
+        console.log(door_2);
+        console.log(door_1);
+
+        //Stating all of my functions in Javascript. Giving it the ability to change the image once clicked
+            function wordPopup()
+            {
+                document.write("<h1>What's Behind the Three Doors?</h1>\n<h2><b>Pick one door from the three provided and see what lies behind the closed door.</h2></b>");
+            }
+            function change(){
+              var image = document.getElementById('door3');
+              image.src = "Images/cat.jpg"
+            }
+            function changepic(){
+              var image =document.getElementById('door2');
+              image.src = "Images/dog.jpg"
+            }
+            function changepic1(){
+              var image = document.getElementById('door1');
+              image.src = "Images/pig.jpg"
+            }
+
+        </script>
+
+    </head>
+    <body>
+      <!-- Activating so it prints my words on the page. -->
+      <div id="changeme"><b>Morgan's Choose Your Own Door</b></div>
+        <script>
+            wordPopup();
+        </script>
+
+        <!-- Pictures of the different doors. Along with the onclick button event-->
+          <img src="Images/door_3.png" alt="Door 3" id="door3" onclick="change();">
+          <img src="Images/door_2.png" alt="Door 2" id="door2" onclick="changepic();">
+          <img src="Images/door_1.png" alt="Door 1" id="door1" onclick="changepic1();">
+    </body>
+<!-- Linking the font I want to use -->
+    <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+
+    <!--font family embed-->
+    <style>
+    * {
+      font-family: 'Charmonman', cursive;
+    }
+    </style>
+
+</html>
+
+  <style>
+
+
+body{
+  background: url("Images/lightning.jpg") no-repeat fixed;
+  background-size: cover;
+    text-align: center;
+
+}
+
+
+
+  </style>

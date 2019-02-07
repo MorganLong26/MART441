@@ -1,0 +1,5 @@
+# Week 4
+This week was a continuation of last weeks choose your own adventure project. For that project I created the skeleton of my idea, which is choose one of the three doors and see what lies beyond. For this week I had to add the secret behind all three doors and change the style according to the theme. I chose to change my background picture to a hero image of a lightning storm to give my adventure project a bit of an ominous feel. If someone clinks on one of the doors they would think it might be a scary image, but I decided to make it fun and have three different images of animals wearing sunglasses. I achieved this by using anchor tags and the onclick event to reveal what image lied beyond the closed door.
+
+## Issues
+I didn't run into to many obstacles but I did struggle a bit. My main struggle was trying to create the onclick event so it would go from the door image to one of the animal pictures. I used the course website videos and examples to help me figure out what I was doing wrong. I wasn't declaring my onclick a function. I eventually figured it out, so it wasn't to bad. 
