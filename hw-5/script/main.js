@@ -1,6 +1,6 @@
 
 var imageTags = ["image1", "image2", "image3", "image4","image5","image6","image7","image8","image9","image10"];
-var blankImagePath = "images/card.jpg";
+var blankImagePath = "Images/card.jpg";
 var actualImages = new Array();
 
 function printBlanks()
