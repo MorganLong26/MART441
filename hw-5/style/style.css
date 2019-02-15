@@ -1,14 +1,10 @@
 body{
-  height: 100vh;
-   display: flex;
-   background: #060AB2;
+    background-color:'white';
 }
 
 .divTable{
-  width: 640px;
-  height: 640px;
-  margin: auto;
-  display: flex;
+	display: table;
+	width: 100%;
 }
 .divTableRow {
 	display: table-row;
@@ -18,11 +14,9 @@ body{
 	display: table-header-group;
 }
 .divTableCell, .divTableHead {
-  width: calc(25% - 10px);
-  height: calc(33.333% - 10px);
-  margin: 5px;
-  position: relative;
-  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
 }
 .divTableHeading {
 	background-color: #EEE;
