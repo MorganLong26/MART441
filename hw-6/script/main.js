@@ -9,7 +9,7 @@ var actualImages = new Array();
 
 //var player = {"firstname":"moves", "lastname":"age"};
 // changed the syntax of the JSON so that you have a key:value pair for item
-var playerInfo = {"firstname":"", "lastname":"", "age":"", "moves":0};
+var player = {"firstname":"", "lastname":"", "age":"", "moves":0};
 
 function printBlanks()
 {
@@ -80,7 +80,7 @@ function flipImage(number)
         // assign all total number of moves to your moves property
     player.moves = numberOfMoves +1
         // set your local storage again before you to the next page
-        var playerInfo = localStorage.getItem("playerInfo");
+        var playerInformation = localStorage.getItem("playerInfo");
 
 
         // go to the next page
@@ -121,7 +121,7 @@ function addToPlayer()
 
 function playerInfo()
 {
-  var playerInfo = document.getElementById("playerInfo").innerHTML = player.firstname+":"+player.lastname+":"+player.age+":"+player.moves+":0";
+  var playerInfo =   document.getElementById("playerInfo").innerHTML = player.firstname+":"+player.lastname+":"+player.age+":"+player.moves+":0";
     player = JSON.stringify(playerInformation);
     //console.log(player.firstname);
     //console.log(player.lastname);
