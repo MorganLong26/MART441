@@ -1,0 +1,55 @@
+   #square {
+      width: 100px;
+      height: 100px;
+      background: tan;
+      position: absolute;
+      left: 0;
+      top: 600;
+    }
+  #square2{
+    width: 100px;
+    height: 100px;
+    background: tan;
+    position: absolute;
+    left: 0;
+    top: 100;
+  }
+#square3{
+  width: 100px;
+  height: 100px;
+  background: tan;
+  position: absolute;
+  left: 940;
+  top: 100;
+}
+#square4{
+  width: 100px;
+  height: 100px;
+  background: tan;
+  position: absolute;
+  left:940;
+  top: 600;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+
+
+    #third{
+      background: tan;
+      text-align:center;
+    }
+
+    body{
+        background-color: rgb(49,96,170);
+    }
