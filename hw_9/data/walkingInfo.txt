@@ -1,0 +1,6 @@
+<walking>
+	<title>The Walking Dead</title>
+	<type>Scripted</type>
+	<language>English<language>
+	<genres>Drama, Action, Horror</genres>
+</walking>
