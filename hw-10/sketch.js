@@ -17,7 +17,7 @@ armRotationRate = (mouseX * 1) - 100;
   push();
 
 //Grid is centered
-translate( 300, 400);
+translate( 0, 400);
 
 //Body
 push();
@@ -33,7 +33,7 @@ pop();
 //Design on shirt
 push();
 translate(mouseX, mouseY );
-fill('blue');
+fill('black');
 translate(-100, -150);
 rect(0 ,0 ,45 ,250);
 translate(80,0);
@@ -63,7 +63,7 @@ rotate( radians(armRotationRate));
 
 
 //Left Arm
-fill('yellow')
+fill('pink')
 ellipse(-200,50,-40,-200)
 
 //Right Arm
