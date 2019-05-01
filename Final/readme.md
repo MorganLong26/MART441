@@ -1,0 +1,6 @@
+# Final Project
+For my final project I wanted to do a fractal tree. My original idea was to do a fractal tree growing from the bottom of the screen, but upon watching a tutorial video on fractal trees, by The Coding Train, I changed my idea. I worked off an existing fractal tree I had done and made it better by changing dimensions and positions. I wanted to have a slider so the user could chose what they wanted the final tree to look like. The slider is at the bottom of the screen. I have ellipses at the top of the screen floating like clouds to give off a storm or a changing of season, and I have them slowly moving off the screen. When the user moves the slider from side to side it gives a feeling of the changing of seasons.
+
+
+## Issues
+Since I was working off an exiting piece I already had an understanding of what the lines of code meant. I still struggled a bit with the object and array aspect of this project. I feel more confident in objects and arrays even though I still am not 100%  certain. I also wanted to have snow falling but I couldn't get it to work so I ended up changing my concept to snow clouds. I realized half way through revising this project that it was also done in p5 and not jQuery. I apologize for this I just noticed that I was in JavaScript but when I went to the html page it was in p5.
